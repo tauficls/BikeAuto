@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class changeMaterial : MonoBehaviour {
-    public Material material;
+    public Material[] material;
     Renderer rend;
     public Button yourButton;
+    int nowColor = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,11 @@ public class changeMaterial : MonoBehaviour {
     void TaskOnClick()
     {
         Debug.Log("tes");
-        rend.sharedMaterial = material;
+        nowColor++;
+        if (nowColor >= material.Length)
+        {
+            nowColor = 0;
+        }
+        rend.sharedMaterial = material[nowColor];
     }
 }
