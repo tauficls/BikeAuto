@@ -8,11 +8,15 @@ public class changeMaterial : MonoBehaviour {
     Renderer rend;
     public Button yourButton;
     int nowColor = 0;
+    int cost = 1000;
 
 	// Use this for initialization
 	void Start () {
         rend = GetComponent<Renderer>();
         rend.enabled = true;
+        
+        nowColor = PlayerPrefs.GetInt("Now Color");
+        rend.sharedMaterial = material[nowColor];
         Button btn = yourButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
 	}
@@ -21,10 +25,12 @@ public class changeMaterial : MonoBehaviour {
     {
         Debug.Log("tes");
         nowColor++;
+        PlayerPrefs.SetInt("Cost", cost);
         if (nowColor >= material.Length)
         {
             nowColor = 0;
         }
+        PlayerPrefs.SetInt("Now Color", nowColor);
         rend.sharedMaterial = material[nowColor];
     }
 }

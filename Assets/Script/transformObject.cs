@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class transformObject : MonoBehaviour {
     public Button whellButton;
-    private int form;
+    private int form = 1;
     private const int MAX_FORM = 3;
     private Vector3 initForm;
 
@@ -14,7 +14,8 @@ public class transformObject : MonoBehaviour {
         Button btn = whellButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
         initForm = transform.localScale;
-        form = 2;
+        form = PlayerPrefs.GetInt("Form");
+        Debug.Log("FormStart" + form);
 	}
 
     void scaleObject(float scale)
@@ -53,11 +54,15 @@ public class transformObject : MonoBehaviour {
         {
             scaleObject(-0.3f);
         }
-
+        
         form++;
+        
         if (form > MAX_FORM)
         {
             form = 1;
         }
-	}
+
+        Debug.Log("form " + form);
+        PlayerPrefs.SetInt("Form", form);
+    }
 }
