@@ -12,6 +12,16 @@ aplikasi Andorid BikeApps. Aplikasi BikeApps memiliki achievement yang nantinya 
 ## Installation
 Just simply as run **BikeAuto.exe** file and enjoy it !
 
+## How-to Play?
+Before plat BikeAuto, ensure you have an account in _BikeApps_**. If not, download BikeApps and make a new account.
+<br />
+After that, login using the same account you created in BikeApps. Enjoy the game !
+<br />
+Use this keyboard shortcut to play the simulation :
+- C : change camera view
+- left arrow : rotate bike to the left
+- right arrow : rotate bike to the right
+
 ## Reference
 3D Asset :
 - Sci-fi Modular Environment : https://www.assetstore.unity3d.com/en/#!/content/3426
@@ -22,16 +32,6 @@ Just simply as run **BikeAuto.exe** file and enjoy it !
 Library :
 - Unity Firebase    : https://www.assetstore.unity3d.com/en/#!/content/58337
 - LitJSON           : https://lbv.github.io/litjson/
-
-## How-to Play?
-Before plat BikeAuto, ensure you have an account in _BikeApps_*. If not, download BikeApps and make a new account.
-<br />
-After that, login using the same account you created in BikeApps. Enjoy the game !
-<br />
-Use this keyboard shortcut to play the simulation :
-- C : change camera view
-- left arrow : rotate bike to the left
-- right arrow : rotate bike to the right
 
 ## Deliverables 
 repository : http://gitlab.informatika.org/IF3111-2017-K02-16/BikeAuto
