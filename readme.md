@@ -1,5 +1,5 @@
 # BikeAuto
-A simple simulation for upgraping your baike.
+A simple simulation for upgraping your bicycle.
 
 ## System Description
 Subsistem Simulasi Modifikasi Sepeda (Platform Unity) BikeAuto adalah sebuah game simulasi berbasis Desktop yang diharapkan memberikan sensasi nyata bagi para pengguna 
