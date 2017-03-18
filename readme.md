@@ -10,7 +10,7 @@ BikeAuto dibangun menggunkan Unity3D engine. BikeAuto juga terhubung dengan Fire
 aplikasi Andorid BikeApps. Aplikasi BikeApps memiliki achievement yang nantinya dapat menjadi **money** untuk membeli part sepeda di BikeAuto.
 
 ## Installation
-Just simply as run **BikeAuto.exe* file and enjoy it !
+Just simply as run **BikeAuto.exe** file and enjoy it !
 
 ## Reference
 3D Asset :
@@ -24,7 +24,7 @@ Library :
 - LitJSON           : https://lbv.github.io/litjson/
 
 ## How-to Play?
-Before plat BikeAuto, ensure you have an account in __BikeApps__*. If not, download BikeApps and make a new account.
+Before plat BikeAuto, ensure you have an account in _BikeApps_*. If not, download BikeApps and make a new account.
 <br />
 After that, login using the same account you created in BikeApps. Enjoy the game !
 <br />
