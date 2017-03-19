@@ -21,6 +21,7 @@ Use this keyboard shortcut to play the simulation :
 - C : change camera view
 - left arrow : rotate bike to the left
 - right arrow : rotate bike to the right
+- K          : screenshot
 
 ## Reference
 3D Asset :
