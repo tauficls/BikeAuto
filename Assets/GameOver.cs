@@ -6,6 +6,7 @@ public class GameOver : MonoBehaviour {
     public bool gameover;
     public GUIStyle style1;
     public Texture image1;
+    public Texture image2;
 	// Use this for initialization
 	void Start () {
         gameover = false;
@@ -34,6 +35,11 @@ public class GameOver : MonoBehaviour {
             if(GUI.Button(new Rect(Screen.width * 0.48f, Screen.height * 0.55f, 50, 50), image1))
             {
                 Application.LoadLevel("minigame");
+                Time.timeScale = 1;
+            }
+            if (GUI.Button(new Rect(Screen.width * 0.58f, Screen.height * 0.55f, 50, 50), image2))
+            {
+                Application.LoadLevel("tes");
                 Time.timeScale = 1;
             }
         }

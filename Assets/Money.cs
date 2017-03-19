@@ -25,7 +25,7 @@ public class Money : MonoBehaviour {
         if (keys != null)
         {
             moneyValue.text = dict["money"].ToString();
-            value = System.Convert.ToInt32(dict["money"].ToString());
+            value = System.Convert.ToInt32(dict["money"].ToString()) + PlayerPrefs.GetInt("Score");
             PlayerPrefs.SetInt("Money Value", value);
             Debug.Log(" Money : " + value);
 

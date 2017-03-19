@@ -12,11 +12,12 @@ public class Register : MonoBehaviour {
     private string Email;
     private string Pass;
     private string UID;
+    public Button loginButton;
 
     // Use this for initialization
     void Start () {
-		
-	}
+        loginButton.onClick.AddListener(TaskOnClick);
+    }
 	
     public void WWWRegister()
     {
@@ -76,11 +77,19 @@ public class Register : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            print("WORK!");
             WWWRegister();
         }
+
+      
         Email = email.GetComponent<InputField>().text;
         Pass = pass.GetComponent<InputField>().text;
         
+    }
+
+    void TaskOnClick()
+    {
+        Email = email.GetComponent<InputField>().text;
+        Pass = pass.GetComponent<InputField>().text;
+        WWWRegister();
     }
 }

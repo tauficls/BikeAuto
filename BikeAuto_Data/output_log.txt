@@ -1,0 +1,99 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 930M       (ID=0x1346)
+    Vendor:   NVIDIA
+    VRAM:     1996 MB
+    Driver:   21.20.16.4550
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\LitJson.dll into Unity Child Domain
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\simple-firebase-csharp.dll (this message is harmless)
+Loading C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\simple-firebase-csharp.dll into Unity Child Domain
+- Completed reload, in  0.313 seconds
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\user\Desktop\PBD\BikeAuto\BikeAuto_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.073495 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3a8c -> priority: 1 
+https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyCxIdBIUWdSo-kEYk1w_OmctTpI_drUYr8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+WWW Ok!: {
+ "kind": "identitytoolkit#VerifyPasswordResponse",
+ "localId": "cHtpQBZpqDgZPzEQtlPIDLZY4K62",
+ "email": "tes@tes.com",
+ "displayName": "",
+ "idToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjVjZTYwNjY3ZGU2NjE2N2ZjOTY1M2Y4ZmNmZjhlZDdlMmQ0MmM4ZWMifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYmlrZXJzLTZkY2YxIiwiYXVkIjoiYmlrZXJzLTZkY2YxIiwiYXV0aF90aW1lIjoxNDg5OTM0NTgwLCJ1c2VyX2lkIjoiY0h0cFFCWnBxRGdaUHpFUXRsUElETFpZNEs2MiIsInN1YiI6ImNIdHBRQlpwcURnWlB6RVF0bFBJRExaWTRLNjIiLCJpYXQiOjE0ODk5MzQ1ODAsImV4cCI6MTQ4OTkzODE4MCwiZW1haWwiOiJ0ZXNAdGVzLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJ0ZXNAdGVzLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.DpxOcQYLdwUk20EfHjdvekHkPU82BUDtat0Xb0bGgZwLrTptBUunogeML8_YtRFbojD8T665aAnP_PX2iFiJwqG4Ft5jYkaagqxv5hKn4xjLDenXPvqJHF5deZPB3cjQrNry6slrlcmlVYZqEHbWEhStO_uVg50h2BchfXH3d2_jkmN2JJSfX7kOfqrx-2jEea38zkoz8rOsTteB58NPmnoW6BnIyYHFcy-mFfvmBd8OPHv5lwMIsT8S_jb_LhHS4WQoBFCqQSLzupagDTQaaKa7vcdzJ9cvF9l7egmG5MMnDDc8QHu-VC4n1CWhXNxzx3xCfGzyyRMzz4GdWsyrjw",
+ "registered": true,
+ "refreshToken": "AJly3UUecoQsmEogIDU59cu_444Rpz-wJV6_o7d8lHaytnxYIf69yAgd2BZAjVh5MmmFqJWz4ARKUbQihNkVN2e5Pskc30uU9VYBag_AbfEDw4oYfLM3aoU0uT5Kr1koSy4akbIaTIT2XyCOHRPlZg37T15bF7VwT2Xm1QDV3ckhEIt_Wgl9wbF_xj_PmOS6gpMLT8sVV2I2",
+ "expiresIn": "3600"
+}
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+cHtpQBZpqDgZPzEQtlPIDLZY4K62
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.617394 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 705.
+Total: 3.693659 ms (FindLiveObjects: 0.057600 ms CreateObjectMapping: 0.019626 ms MarkObjects: 0.329387 ms  DeleteObjects: 3.239685 ms)
+
+FormStart2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FormStart2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Firebase Manager] Instance 'Firebase Manager [Singleton] (UnityEngine.GameObject)' was generated in the scene with DontDestroyOnLoad.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Application Exit LOL
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
