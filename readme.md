@@ -33,6 +33,3 @@ Use this keyboard shortcut to play the simulation :
 Library :
 - Unity Firebase    : https://www.assetstore.unity3d.com/en/#!/content/58337
 - LitJSON           : https://lbv.github.io/litjson/
-
-## Deliverables 
-repository : http://gitlab.informatika.org/IF3111-2017-K02-16/BikeAuto
